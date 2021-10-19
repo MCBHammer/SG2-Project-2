@@ -244,5 +244,10 @@ public class GeneralSettings : EditorWindow
         charData.critChance = EditorGUILayout.Slider(charData.critChance, 0, charData.power);
         GUILayout.EndHorizontal();
 
+        GUILayout.BeginHorizontal();
+        GUILayout.Label("Name");
+        charData.name = EditorGUILayout.TextField(charData.name);
+        GUILayout.EndHorizontal();
+
     }
 }
