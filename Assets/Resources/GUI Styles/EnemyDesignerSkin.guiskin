@@ -1358,6 +1358,72 @@ MonoBehaviour:
     m_Normal:
       m_Background: {fileID: 0}
       m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.1544589, g: 0.8138515, b: 0.8396226, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 12800000, guid: ec2850cf55b04dd46a31594005257cc3, type: 3}
+    m_FontSize: 36
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: MageHeader
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
       m_TextColor: {r: 0, g: 0, b: 0, a: 1}
     m_Hover:
       m_Background: {fileID: 0}
@@ -1407,10 +1473,340 @@ MonoBehaviour:
       m_Right: 0
       m_Top: 0
       m_Bottom: 0
-    m_Font: {fileID: 0}
-    m_FontSize: 0
+    m_Font: {fileID: 12800000, guid: b011e8d33cb0b884bafad61544bff406, type: 3}
+    m_FontSize: 24
     m_FontStyle: 0
-    m_Alignment: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: MageField
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 12800000, guid: b011e8d33cb0b884bafad61544bff406, type: 3}
+    m_FontSize: 12
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: WarriorHeader
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 24
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: WarriorField
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 12
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: RogueHeader
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 12800000, guid: e0ddd51e3715eda42a9d344409776b6d, type: 3}
+    m_FontSize: 24
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  - m_Name: RogueField
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 12800000, guid: e0ddd51e3715eda42a9d344409776b6d, type: 3}
+    m_FontSize: 12
+    m_FontStyle: 0
+    m_Alignment: 3
     m_WordWrap: 0
     m_RichText: 1
     m_TextClipping: 0
