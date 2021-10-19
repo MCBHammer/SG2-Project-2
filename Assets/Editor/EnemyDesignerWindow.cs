@@ -205,4 +205,33 @@ public class GeneralSettings : EditorWindow
         window.minSize = new Vector2(250, 200);
         window.Show();
     }
+
+    void OnGUI()
+    {
+        switch (dataSetting)
+        {
+            case SettingsType.MAGE:
+                DrawSettings((CharacterData)EnemyDesignerWindow.MageInfo);
+                break;
+            case SettingsType.WARRIOR:
+                DrawSettings((CharacterData)EnemyDesignerWindow.WarriorInfo);
+                break;
+            case SettingsType.ROGUE:
+                DrawSettings((CharacterData)EnemyDesignerWindow.RogueInfo);
+                break;
+        }
+    }
+
+    void DrawSettings(CharacterData charData)
+    {
+        GUILayout.BeginHorizontal();
+        GUILayout.Label("Max Health");
+        charData.maxHealth = EditorGUILayout.FloatField(charData.maxHealth);
+        GUILayout.EndHorizontal();
+
+        GUILayout.BeginHorizontal();
+        GUILayout.Label("Max Energy");
+        charData.maxEnergy = EditorGUILayout.FloatField(charData.maxEnergy);
+        GUILayout.EndHorizontal();
+    }
 }
