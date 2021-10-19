@@ -233,5 +233,16 @@ public class GeneralSettings : EditorWindow
         GUILayout.Label("Max Energy");
         charData.maxEnergy = EditorGUILayout.FloatField(charData.maxEnergy);
         GUILayout.EndHorizontal();
+
+        GUILayout.BeginHorizontal();
+        GUILayout.Label("Power");
+        charData.power = EditorGUILayout.Slider(charData.power, 0, 100);
+        GUILayout.EndHorizontal();
+
+        GUILayout.BeginHorizontal();
+        GUILayout.Label("% Crit Chance");
+        charData.critChance = EditorGUILayout.Slider(charData.critChance, 0, charData.power);
+        GUILayout.EndHorizontal();
+
     }
 }
