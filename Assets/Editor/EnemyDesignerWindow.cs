@@ -130,6 +130,11 @@ public class EnemyDesignerWindow : EditorWindow
         mageData.wpnType = (MageWpnType)EditorGUILayout.EnumPopup(mageData.wpnType);
         EditorGUILayout.EndHorizontal();
 
+        if(GUILayout.Button("Create", GUILayout.Height(40)))
+        {
+            GeneralSettings.OpenWindow(GeneralSettings.SettingsType.MAGE);
+        }
+
         GUILayout.EndArea();
     }
 
@@ -148,6 +153,11 @@ public class EnemyDesignerWindow : EditorWindow
         GUILayout.Label("Weapon Type");
         warriorData.wpnType = (WarriorWpnType)EditorGUILayout.EnumPopup(warriorData.wpnType);
         EditorGUILayout.EndHorizontal();
+
+        if (GUILayout.Button("Create", GUILayout.Height(40)))
+        {
+            GeneralSettings.OpenWindow(GeneralSettings.SettingsType.WARRIOR);
+        }
 
         GUILayout.EndArea();
     }
@@ -168,6 +178,31 @@ public class EnemyDesignerWindow : EditorWindow
         rogueData.wpnType = (RogueWpnType)EditorGUILayout.EnumPopup(rogueData.wpnType);
         EditorGUILayout.EndHorizontal();
 
+        if (GUILayout.Button("Create", GUILayout.Height(40)))
+        {
+            GeneralSettings.OpenWindow(GeneralSettings.SettingsType.ROGUE);
+        }
+
         GUILayout.EndArea();
+    }
+}
+
+public class GeneralSettings : EditorWindow
+{
+    public enum SettingsType
+    {
+        MAGE,
+        WARRIOR,
+        ROGUE
+    }
+    static SettingsType dataSetting;
+    static GeneralSettings window;
+
+    public static void OpenWindow(SettingsType setting)
+    {
+        dataSetting = setting;
+        window = (GeneralSettings)GetWindow(typeof(GeneralSettings));
+        window.minSize = new Vector2(250, 200);
+        window.Show();
     }
 }
