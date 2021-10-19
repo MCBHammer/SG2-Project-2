@@ -225,6 +225,11 @@ public class GeneralSettings : EditorWindow
     void DrawSettings(CharacterData charData)
     {
         GUILayout.BeginHorizontal();
+        GUILayout.Label("Prefab");
+        charData.prefab = (GameObject)EditorGUILayout.ObjectField(charData.prefab, typeof(GameObject), false);
+        GUILayout.EndHorizontal();
+
+        GUILayout.BeginHorizontal();
         GUILayout.Label("Max Health");
         charData.maxHealth = EditorGUILayout.FloatField(charData.maxHealth);
         GUILayout.EndHorizontal();
