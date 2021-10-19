@@ -27,12 +27,12 @@ namespace Types
     }
     public enum RogueStrategyType
     {
-        DAGGERS,
-        BOW
+        STEALTH,
+        SPEED
     }
     public enum RogueWpnType
     {
-        STEALTH,
-        SPEED
+        DAGGERS,
+        BOW
     }
 }
