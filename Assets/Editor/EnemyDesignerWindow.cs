@@ -92,7 +92,7 @@ public class EnemyDesignerWindow : EditorWindow
     {
         GUILayout.BeginArea(headerSection);
 
-
+        GUILayout.Label("Enemy Designer");
 
         GUILayout.EndArea();
     }
@@ -101,7 +101,7 @@ public class EnemyDesignerWindow : EditorWindow
     {
         GUILayout.BeginArea(mageSection);
 
-
+        GUILayout.Label("Mage");
 
         GUILayout.EndArea();
     }
@@ -110,7 +110,7 @@ public class EnemyDesignerWindow : EditorWindow
     {
         GUILayout.BeginArea(warriorSection);
 
-
+        GUILayout.Label("Warrior");
 
         GUILayout.EndArea();
     }
@@ -119,7 +119,7 @@ public class EnemyDesignerWindow : EditorWindow
     {
         GUILayout.BeginArea(rogueSection);
 
-
+        GUILayout.Label("Rogue");
 
         GUILayout.EndArea();
     }
